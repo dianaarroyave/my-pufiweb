@@ -7,8 +7,8 @@ const ProductDescription = ({icon, title, text, textLink}) => {
             <img src={icon} alt="Product Image" width = "80px"/>
             <h1 className="productTitle">{title}</h1>
             <hr/>
-            <p>{text}</p>
-            <a href = "/">{textLink}</a>
+            <p className="textDescription"> {text}</p>
+            <a className="textDescription" href = "/">{textLink}</a>
         </div>
     )
 }

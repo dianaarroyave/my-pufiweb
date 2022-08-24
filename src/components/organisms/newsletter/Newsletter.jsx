@@ -6,9 +6,9 @@ import TextField from "@mui/material/TextField";
 const Newsletter = () => {
   return (
     <div className="newslatterContainer">
-      <h2>NEWSLETTER</h2>
-      <h1>SUSCRIBITE</h1>
-      <p>Y enterate de todas las novedades</p>
+      <h3 className="newsletterStyle">NEWSLETTER</h3>
+      <h2 className="textSuscribite">SUSCRIBITE</h2>
+      <p className="textEnterate">Y enterate de todas las novedades</p>
       <form action="#" method="get">
             <Box
                 sx={{
