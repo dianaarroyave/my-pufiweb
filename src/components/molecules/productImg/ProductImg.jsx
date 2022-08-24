@@ -10,6 +10,8 @@ const ProductImg = (props) => {
           className="img-responsive"
           src= {image}
           alt=""
+          width="400px"
+          height="300px"
         />
         <div className="overlay"> 
           <a className="info" href="#">
